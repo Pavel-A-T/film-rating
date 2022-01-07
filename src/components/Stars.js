@@ -16,10 +16,14 @@ function Stars({count}) {
             {stars}
         </ul>
     )
-}
+};
+
+Stars.defaultProps = {
+    count: 0
+};
 
 export default Stars;
 
 Stars.propTypes = {
     count: PropTypes.number
-}
+};
